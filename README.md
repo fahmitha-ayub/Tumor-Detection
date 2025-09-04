@@ -1,20 +1,14 @@
-# Tumor Detection using Deep Learning
+# Tumor Detection using Random Forest
 
 ## 📌 Project Overview
-This project applies deep learning techniques to detect tumors from medical images. A Convolutional Neural Network (CNN) was designed and trained to classify tumor vs. non-tumor cases, demonstrating the use of AI in medical diagnosis.
+This project applies machine learning techniques to detect tumors using a Random Forest Classifier. The model classifies tumor vs. non-tumor cases based on input features from the dataset.
 
-## 🔍 Objectives
-- Train a CNN model to classify tumor vs. non-tumor cases.
-- Apply optimization techniques to improve training performance.
-- Evaluate the model with accuracy and classification metrics.
+## 🔍 Tasks Completed
+- Loaded and prepared dataset for classification.
+- Trained a Random Forest Classifier for tumor detection.
+- Evaluated the model with accuracy score, confusion matrix, and classification report.
+- Visualized results to analyze prediction performance.
 
-## 🛠️ Tech Stack
-- Python (TensorFlow/Keras, NumPy, Matplotlib)
-- Deep Learning: Convolutional Neural Networks (CNN)
-- Jupyter Notebook
-
-## 📊 Key Steps
-1. Data loading and preparation.  
-2. CNN model design with Conv2D, MaxPooling, Dense, and Dropout layers.  
-3. Training the model with hyperparameter adjustments (epochs, batch size, learning rate).  
-4. Performance evaluation using metrics and confusion matrix. 
+## 🛠️ Tools & Libraries
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib)
+- Google Colab
